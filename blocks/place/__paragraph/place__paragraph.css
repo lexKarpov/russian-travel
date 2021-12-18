@@ -1,0 +1,11 @@
+.place__paragraph{
+  grid-area: paragraph1;
+  margin: 0;
+  font-size: 18px;
+  line-height: 163%;
+  max-width: 460px;
+}
+.place__paragraph:nth-last-child(-n+1){
+  grid-area: paragraph2;
+  margin-top: 26px;
+}

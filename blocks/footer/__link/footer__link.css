@@ -1,0 +1,7 @@
+.footer__link{
+  width: max-content;
+  font-size: 1em;
+  line-height: 1.125;
+  color: white;
+  text-decoration: none;
+}

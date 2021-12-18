@@ -1,0 +1,10 @@
+.cover__overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 1184px;
+  min-height: 740px;
+  z-index: 0;
+  opacity: 0;
+  transition: 1s;
+}

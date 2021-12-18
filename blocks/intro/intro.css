@@ -1,0 +1,5 @@
+.intro{
+  grid-column: 3/4;
+  max-width: 690px;
+  margin-bottom: 73px;
+}

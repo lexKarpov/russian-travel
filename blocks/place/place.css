@@ -1,0 +1,13 @@
+.place{
+  display: grid;
+  grid-template-areas:
+  "title link"
+  "img paragraph1"
+  "img paragraph2"
+  "img .";
+  grid-template-columns: 1fr 1.3fr;
+  grid-template-rows: mimax(1fr, max-content) max-content max-content 1fr;
+  margin-bottom: 80px;
+  column-gap: 40px;
+  max-width: 100%;
+}
