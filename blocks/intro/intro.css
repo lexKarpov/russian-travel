@@ -3,3 +3,22 @@
   max-width: 690px;
   margin-bottom: 73px;
 }
+
+@media screen and (max-width:1024px) {
+  .intro{
+    grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .intro{
+    grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro{
+    grid-column: 1/-1;
+    margin-left: 24px;
+  }
+}

@@ -8,6 +8,7 @@
   background-color: #2a2c2f;
   color: white;
 }
+
 .header__lang-link:nth-child(2n){
   margin: 0;
 }
@@ -17,5 +18,12 @@
     max-width: 20px;
     font-size: 18px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__lang-link{
+    font-size: 14px;
+    line-height: 16px;
   }
 }

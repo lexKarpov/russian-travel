@@ -3,6 +3,20 @@
   padding-left: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 284px);
+  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   grid-gap: 16px;
   max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .cards{
+    width: 600px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cards{
+    grid-template-columns: minmax(200px, 288px)
+  }
 }

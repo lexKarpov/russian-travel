@@ -11,3 +11,55 @@
   text-decoration: none;
   color: #fff;
 }
+
+@media screen and (max-width: 820px) {
+  .cover__title{
+    font-size: 3.3em;
+    margin: 0;
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cover__title{
+    font-size: 3em;
+    margin: 0;
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title{
+    padding: 20px 16px;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .cover__title{
+    font-size: 2em;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .cover__title{
+    font-size: 2em;
+    max-width: 55%;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .cover__title{
+    font-size: 2em;
+    max-width: 75%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .cover__title{
+    font-size: 2em;
+    max-width: 85%;
+    padding: 0;
+  }
+}

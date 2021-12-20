@@ -7,3 +7,9 @@
   margin-bottom: 48px;
   gap:12px;
 }
+
+@media all and (max-width: 700px) {
+  .place__website{
+    margin-bottom: 0;
+  }
+}

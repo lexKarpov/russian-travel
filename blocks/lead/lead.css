@@ -5,3 +5,15 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead{
+    grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead{
+    grid-column: 1/-1;
+  }
+}

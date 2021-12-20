@@ -1,21 +1,17 @@
 .cover{
-  position: relative;
+  padding: 0 48px;
   grid-column: 2/5;
-  margin: 14px 48px 92px 48px;
-  background-image: url(../../images/background-cover.png);
-  min-height: 740px;
-  display: grid;
-  grid-template-rows: 1fr max-content max-content 1fr;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  background-size: cover;
+  margin: 0;
 }
 
-.cover:hover .cover__overlay{
-  opacity: 1;
-}
-/* @media screen and (max-width: 1280px) {
-  .cover{
-    margin: 14px 0 92px 0;
+@media screen and (max-width: 1184px) {
+  .cover {
+    padding: 0;
   }
-} */
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    grid-column: 1/-1;
+  }
+}
