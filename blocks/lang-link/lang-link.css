@@ -1,4 +1,4 @@
-.header__lang-link{
+.lang-link{
   margin: 0 14px 0 0;
   font-size: 1.5em;
   line-height: 1.55;
@@ -9,12 +9,12 @@
   color: white;
 }
 
-.header__lang-link:nth-child(2n){
+.lang-link:nth-child(2n){
   margin: 0;
 }
 
 @media screen and (max-width: 600px) {
-  .header__lang-link{
+  .lang-link{
     max-width: 20px;
     font-size: 18px;
     line-height: 20px;
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .header__lang-link{
+  .lang-link{
     font-size: 14px;
     line-height: 16px;
   }
