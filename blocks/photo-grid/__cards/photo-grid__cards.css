@@ -1,4 +1,4 @@
-.cards{
+.photo-grid__cards{
   list-style-type: none;
   padding-left: 0;
   display: grid;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .cards{
+  .photo-grid__cards{
     width: 600px;
     grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .cards{
+  .photo-grid__cards{
     grid-template-columns: minmax(200px, 288px);
   }
 }
