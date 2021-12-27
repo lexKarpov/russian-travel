@@ -1,33 +1,34 @@
 .header{
-  /* grid-column: 2/5; */
-
   padding: 28px 48px 0 48px;
   display: grid;
   max-width: 1186px;
-  grid-template-areas:
+  /* grid-template-areas:
     "logo . lang";
   grid-template-columns: max-content minmax(20px, 1fr) max-content;
   align-items: center;
-  justify-items: center;
+  justify-items: center; */
   margin: 0 auto 58px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
   .header{
-    grid-column: 1/-1;
+    /* grid-column: 1/-1; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .header{
-    grid-column: 1/-1;
+    /* grid-column: 1/-1; */
     padding: 28px 24px 0 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header{
-    grid-column: 1/-1;
+    /* grid-column: 1/-1; */
     padding: 16px 16px 0 16px;
     margin-bottom: 40px;
   }
