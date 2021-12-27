@@ -34,7 +34,7 @@
     "paragraph1"
     "paragraph2";
     row-gap: 32px;
-    grid-template-rows: repeat(auto-fit, max-content);
+    /* grid-template-rows: repeat(auto-fit, max-content); */
   }
 
 }

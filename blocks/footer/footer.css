@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  margin: 104px auto 24px auto;
+  margin: 90px auto 24px auto;
 }
 
 @media screen and (max-width: 1024px) {

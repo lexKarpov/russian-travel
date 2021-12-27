@@ -19,13 +19,12 @@
 @media screen and (max-width: 702px) {
   .place__image{
     width: 100%;
-    object-fit: cover;
     grid-area: img;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image{
-    width: 100%;
+
   }
 }
