@@ -3,7 +3,8 @@
   margin: 0;
   font-size: 18px;
   line-height: 163%;
-  max-width: 460px;
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 .place__paragraph:nth-last-child(-n+1){

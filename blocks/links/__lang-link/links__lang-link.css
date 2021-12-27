@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-.links__lang-link:nth-child(2n){
+.links__lang-link:last-child(){
   margin: 0;
 }
 
