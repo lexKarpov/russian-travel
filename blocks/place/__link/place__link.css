@@ -5,8 +5,3 @@
   transition: .3s;
   text-decoration-line: underline;
 }
-
-.place__link:hover{
-  cursor: pointer;
-  opacity: 0.8;
-}

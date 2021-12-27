@@ -4,4 +4,5 @@
   max-width: 100%;
   display: flex;
   text-decoration: none;
+  transition: .3s;
 }
