@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1024px) {
   .footer{
-    /* grid-column: 1/-1; */
+    margin: 94px 48px 24px 48px;
   }
 }
 

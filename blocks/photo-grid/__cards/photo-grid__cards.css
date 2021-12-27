@@ -2,22 +2,32 @@
   list-style-type: none;
   padding-left: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 284px);
+  /* grid-template-columns: repeat(auto-fill, 284px); */
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   grid-gap: 16px;
   max-width: 100%;
   margin: 10px auto 20px auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .photo-grid__cards{
-    width: 600px;
-    grid-template-columns: 1fr;
+    grid-gap: 11px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   .photo-grid__cards{
-    grid-template-columns: minmax(200px, 288px);
+    max-width: 720px;
+    grid-gap: 14px;
+
+
   }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__cards{
+    grid-template-columns: 1fr;
+    width: 600px;
+  }
+
 }
