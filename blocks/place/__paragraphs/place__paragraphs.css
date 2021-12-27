@@ -1,0 +1,6 @@
+.place__paragraphs{
+  display: flex;
+  flex-direction: column;
+  grid-area: paragraph;
+  max-width: 480px;
+}
