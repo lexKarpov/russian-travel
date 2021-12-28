@@ -15,15 +15,21 @@
 @media (max-width: 768px) {
   .places{
     grid-column: 1/-1;
-    margin: 62px 24px 0 24px;
-    max-width: 100%;
-    /* grid-template-columns: 1fr; */
+    margin: 4px 24px 0 24px;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .places{
-    width: 100%;
-    grid-template-rows: repeat(auto-fill, minmax(100px, max-content));
+    margin: 62px 0 0 0;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: repeat(auto-fill, minmax(100px, max-content)); */
+  }
+}
+
+
+@media (max-width: 320px) {
+  .places{
+    margin: 35px 0 0 0 ;
   }
 }

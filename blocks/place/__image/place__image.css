@@ -1,5 +1,5 @@
 .place__image{
-  max-width: 460px;
+  width: 460px;
   object-fit: cover;
   grid-area: img;
 }
@@ -19,7 +19,6 @@
 @media screen and (max-width: 702px) {
   .place__image{
     width: 100%;
-    grid-area: img;
   }
 }
 

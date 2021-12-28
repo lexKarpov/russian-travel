@@ -6,3 +6,7 @@
   text-decoration: none;
   transition: .3s;
 }
+
+.links:last-child{
+  margin: 0;
+}

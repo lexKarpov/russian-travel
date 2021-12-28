@@ -30,7 +30,8 @@
 @media screen and (max-width: 320px) {
   .header{
     /* grid-column: 1/-1; */
-    padding: 16px 16px 0 16px;
-    margin-bottom: 40px;
+    padding: 10px 16px 0 16px;
+    margin-bottom: 45px;
+    align-items: center;
   }
 }
