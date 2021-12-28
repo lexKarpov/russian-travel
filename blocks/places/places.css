@@ -23,13 +23,11 @@
   .places{
     margin: 62px 0 0 0;
     grid-template-columns: 1fr;
-    /* grid-template-rows: repeat(auto-fill, minmax(100px, max-content)); */
   }
 }
 
-
 @media (max-width: 320px) {
   .places{
-    margin: 35px 0 0 0 ;
+    margin: 35px 0 0 0;
   }
 }

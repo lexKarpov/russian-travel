@@ -10,18 +10,9 @@
   display: flex;
 }
 
-
-
 @media screen and (max-width: 600px) {
   .links__lang-link{
     max-width: 20px;
-    font-size: 18px;
-    line-height: 20px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .links__lang-link{
     font-size: 14px;
     line-height: 16px;
   }
@@ -34,5 +25,3 @@
     align-self: flex-end;
   }
 }
-
-

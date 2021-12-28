@@ -7,6 +7,7 @@
   margin: 0 auto;
   padding: 0;
 }
+
 @media screen and (max-width: 723px) {
   .lead__title{
     max-width: 80%;
@@ -14,6 +15,7 @@
     line-height: 64px;
   }
 }
+
 @media screen and (max-width: 566px) {
   .lead__title{
     max-width: 80%;
@@ -22,6 +24,7 @@
     line-height: 44px;
   }
 }
+
 @media screen and (max-width: 350px) {
   .lead__title{
     max-width: 100%;

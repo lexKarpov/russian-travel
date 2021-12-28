@@ -5,7 +5,6 @@
   "img paragraph"
   "img .";
   grid-template-columns: 1fr 1.3fr;
-  /* grid-template-rows: mimax(1fr, max-content) max-content max-content 1fr; */
   margin-bottom: 80px;
   column-gap: 40px;
   max-width: 100%;
@@ -33,7 +32,6 @@
     "img"
     "paragraph";
     row-gap: 32px;
-    /* grid-template-rows: repeat(auto-fit, max-content); */
   }
 }
 

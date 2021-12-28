@@ -6,7 +6,6 @@
   grid-template-columns: 1fr minmax(0, 148px)  984px minmax(0, 148px) 1fr;
 }
 
-
 @media screen and (max-width: 1024px) {
   .page{
       grid-template-columns: minmax(0, 48px) minmax(20px, 988px) minmax(0, 48px);

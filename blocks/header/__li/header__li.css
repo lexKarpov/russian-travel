@@ -1,10 +1,10 @@
 .header__li{
   margin-right: 14px;
 }
+
 .header__li:last-child{
   margin: 0;
 }
-
 
 @media all and (max-width: 320px) {
   .header__li{

@@ -1,27 +1,14 @@
 .header{
   padding: 28px 48px 0 48px;
-  display: grid;
   max-width: 1194px;
-  /* grid-template-areas:
-    "logo . lang";
-  grid-template-columns: max-content minmax(20px, 1fr) max-content;
-  align-items: center;
-  justify-items: center; */
   margin: 0 auto 58px auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
-  .header{
-    /* grid-column: 1/-1; */
-  }
-}
-
 @media screen and (max-width: 768px) {
   .header{
-    /* grid-column: 1/-1; */
     padding: 28px 24px 0 24px;
     margin-bottom: 48px;
   }
@@ -29,7 +16,6 @@
 
 @media screen and (max-width: 320px) {
   .header{
-    /* grid-column: 1/-1; */
     padding: 10px 16px 0 16px;
     margin-bottom: 45px;
     align-items: center;
